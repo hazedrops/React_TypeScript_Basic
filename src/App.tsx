@@ -1,11 +1,13 @@
-import ListGroup from './components/ListGroup'
+// import Alert from './components/Alert'
+import Button from './components/Button'
 
 function App() {
-  let items = ['New York', 'San Francisco', 'Tokyo', 'London', 'Paris']
-
   return (
     <div>
-      <ListGroup items = {items} heading="Cities" /> {/* {} for the heading doen't necessary when passing the static value */}
+      {/* <Alert>
+        Hello <span>World</span>
+      </Alert> */}
+      <Button color="secondary" onClick={() => console.log('clicked')}>Primary Button</Button>
     </div>
   )
 }
