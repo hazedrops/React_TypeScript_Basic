@@ -7,7 +7,14 @@ function App() {
       {/* <Alert>
         Hello <span>World</span>
       </Alert> */}
-      <Button color="secondary" onClick={() => console.log('clicked')}>Primary Button</Button>
+      <Button color='info' onClick={() => console.log('clicked')}>
+        Button
+      </Button>
+      
+      {/* Using default value */}
+      {/* <Button onClick={() => console.log('clicked')}>
+        Button
+      </Button> */}
     </div>
   )
 }
